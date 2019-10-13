@@ -345,7 +345,7 @@ li {
   margin-top: 5rem;
 }
 
-.social-media i {
+/* .social-media i {
   font-size: 4rem;
   color: #194F7F;
   transition: color 650ms;
@@ -356,6 +356,13 @@ li {
 }
 .fa-github-square:hover {
   color: #38a1f3;
+} */
+.social-media ul li img {
+  transition: transform .5s ease;
+}
+
+.social-media ul li img:hover {
+  transform: scale(1.2);
 }
 
 
@@ -765,6 +772,10 @@ input[type="submit"]:hover {
   .white-box {
     width: 100%;
   }
+  .portfolio-img img {
+    width: 490px;
+    height: 276px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -814,6 +825,14 @@ input[type="submit"]:hover {
   }
   .white-box {
     width: 100%;
+  }
+  .portfolio-img img {
+    width: 300px;
+    height: 176px;
+  }
+  .portfolio-description .cta {
+    font-size: 1.2rem;
+    
   }
 
   /* .timeline ul {
@@ -872,6 +891,10 @@ input[type="submit"]:hover {
   .up {
     right: 2rem;
   }
+  .portfolio-img img {
+    width: 300px;
+    height: 176px;
+  }
 }
 
 @media screen and (max-width:414px){
@@ -892,6 +915,10 @@ input[type="submit"]:hover {
   }
   .landing-text h6 {
     margin-left: -4rem;
+  }
+  .portfolio-img img {
+    width: 290px;
+    height: 176px;
   }
 }
 
@@ -914,6 +941,10 @@ input[type="submit"]:hover {
   .landing-text h6 {
     margin-left: -3rem;
   }
+  .portfolio-img img {
+    width: 260px;
+    height: 176px;
+  }
   
 }
 
@@ -932,10 +963,17 @@ input[type="submit"]:hover {
   .about-heading h1 {
     font-size: 5rem;
   }
-  .section-heading h6 {
+  .section-heading h6 { 
     font-size: 1.3rem;
     font-weight: 300;
-}
+  }
+  .portfolio-img img {
+    width: 260px;
+    height: 176px;
+  }
+  input[type="submit"]{
+    font-size: 1rem;
+  }
 }
 
 #navigationBar {
